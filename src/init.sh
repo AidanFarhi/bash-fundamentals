@@ -4,13 +4,17 @@ apt-get update -y
 
 apt-get install vim -y
 
-rm .vimrc
-touch .vimrc
+if test -f ~/.vimrc; then
+    rm ~/.vimrc
+fi
+touch ~/.vimrc
 
-echo "set expandtab" >> .vimrc
-echo "set tabstop=2" >> .vimrc
-echo "syntax on" >> .vimrc
-echo "colo peachpuff" >> .vimrc
-echo "set ignorecase" >> .vimrc
-echo "set smartcase" >> .vimrc
-echo "set number" >> .vimrc
+
+echo "set expandtab" >> ~/.vimrc
+echo "set tabstop=2" >> ~/.vimrc
+echo "syntax on" >> ~/.vimrc
+echo "colo peachpuff" >> ~/.vimrc
+echo "set ignorecase" >> ~/.vimrc
+echo "set smartcase" >> ~/.vimrc
+echo "set number" >> ~/.vimrc
+echo "filetype on" >> ~/.vimrc

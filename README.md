@@ -12,6 +12,6 @@ Update your package manager
 
 `apt update`
 
-Intall stuff
+Run configuration
 
-`apt-get install vim python3`
+`bash init.sh`
