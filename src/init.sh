@@ -7,8 +7,6 @@ apt-get install vim -y
 if test -f ~/.vimrc; then
     rm ~/.vimrc
 fi
-touch ~/.vimrc
-
 
 echo "set expandtab" >> ~/.vimrc
 echo "set tabstop=2" >> ~/.vimrc
