@@ -4,6 +4,9 @@ apt-get update -y
 
 apt-get install vim -y
 
+rm .vimrc
+touch .vimrc
+
 echo "set expandtab" >> .vimrc
 echo "set tabstop=2" >> .vimrc
 echo "syntax on" >> .vimrc
