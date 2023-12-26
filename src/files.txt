@@ -1,0 +1,16 @@
+Different types of files
+
+-: Normal file  | A regular file, containing text or bytes
+
+d: Directory    | A directory, which can contain other directories and files
+
+l: Symlink      | Symbolic link, used as a shortcut
+
+s: Socket       | A channel used for communication
+
+c: Special file | Mostly used for device handlers
+
+b: Block device | The type that represents storage hardware, such as disk partitions
+
+p: Named pipe   | Used between processes to talk to each other
+

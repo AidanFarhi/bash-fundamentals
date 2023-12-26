@@ -15,4 +15,6 @@ echo "colo peachpuff" >> ~/.vimrc
 echo "set ignorecase" >> ~/.vimrc
 echo "set smartcase" >> ~/.vimrc
 echo "set number" >> ~/.vimrc
+echo "set mouse=a" >> ~/.vimrc
 echo "filetype on" >> ~/.vimrc
+

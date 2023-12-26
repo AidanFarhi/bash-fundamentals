@@ -1,0 +1,4 @@
+
+/etc
+- this contains config files for system and user software
+

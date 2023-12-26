@@ -1,0 +1,59 @@
+
+/bin
+- contains essential binaries (tools) used by normal users
+
+/boot
+- contains files used in the boot process:
+  kernel, initramfs, bootloader
+
+/dev
+- contains special files used to access devices
+
+/etc
+- default location for software configuration files
+
+/home
+- contains the home directories for normal users
+
+/lib
+- contains system libraries
+
+/lib64
+- contains 64 bit system libraries
+
+/media
+- removable devices such as USB and DVDs can be found here
+
+/mnt
+- empty by default, can be used to mount other file systems
+
+/opt
+- directory where optional software can be installed
+
+/proc
+- directory where information about processes is stored
+
+/root
+- the home directory of the root user
+
+/run
+- contains variable data about run-time data, different each boot
+
+/sbin
+- contains essential system binaries used by admins
+
+/srv
+- directory to place data to be served by the server
+
+/sys
+- contains information about the system, such as drivers and kernel features
+
+/tmp
+- directory intended for temporary files, often cleared on reboot (stored in RAM)
+
+/usr
+- contains non-essential files and binaries as read-only user data
+
+/var
+- contains variable files, such as logs
+

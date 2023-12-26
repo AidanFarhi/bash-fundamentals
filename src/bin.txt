@@ -1,0 +1,17 @@
+/bin
+- normal utilities used by users
+  ex) create/remove files, archiving, listing system info
+
+/sbin
+- tools used by sys admins
+  ex) disk maintenance, network config, firewalling
+
+/(s)bin
+- essential tools are placed here
+
+/usr/(s)bin
+- system-specific binaries
+
+/usr/local/(s)bin
+- binaries that are installed manually
+
