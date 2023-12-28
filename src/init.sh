@@ -2,7 +2,7 @@
 
 apt-get update -y
 
-apt-get install vim -y
+apt-get install vim man -y
 
 if test -f ~/.vimrc; then
     rm ~/.vimrc
