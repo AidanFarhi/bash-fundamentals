@@ -8,10 +8,6 @@ Spin up your Ubuntu container, mounting the `src` directory
 
 `docker run -ti -w /src --rm -v ./src:/src ubuntu /bin/bash` 
 
-Update your package manager
-
-`apt update`
-
 Run configuration
 
 `bash init.sh`
