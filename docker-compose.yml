@@ -1,0 +1,5 @@
+services:
+  ubuntu-sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile

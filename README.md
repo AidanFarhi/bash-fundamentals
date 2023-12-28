@@ -1,13 +1,9 @@
-### Command to start up Ubuntu docker container
+### How to build and hack into your Ubuntu sandbox
 
-First pull the Ubuntu image from Docker hub
+Build the image
 
-`docker pull ubuntu:18.04`
+`docker compose up --build`
 
-Spin up your Ubuntu container, mounting the `src` directory
+Hack the server
 
-`docker run -ti -w /src --rm -v ./src:/src ubuntu /bin/bash` 
-
-Run configuration
-
-`bash init.sh`
+`bash hack.sh` 
